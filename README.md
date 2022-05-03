@@ -1,2 +1,2 @@
 # java-practice-create-user
-my portfolio/ mockup e-Commerce site for practicing automation/ Java
+Please note that this website is a mockup created for practicing automation. It may not always work exactly as expected and lacks some features that a real e-Commerce store would have.
