@@ -1,0 +1,26 @@
+plugins {
+    id "java"
+}
+
+test { useJUnitPlatform() }
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation 'io.cucumber:cucumber-java:4.8.0'
+    testImplementation 'io.cucumber:cucumber-junit:4.8.0'
+
+    testImplementation "org.seleniumhq.selenium:selenium-java:3.141.59" // Селениум
+    testImplementation 'org.assertj:assertj-core:3.11.1' // Библиотека проверок
+    testImplementation 'io.github.bonigarcia:webdrivermanager:4.2.0' // Автоматически качает WebDriver
+    testImplementation "org.junit.jupiter:junit-jupiter:5.5.1" // Тестовый движок
+    testRuntimeOnly('org.junit.vintage:junit-vintage-engine:5.5.2')
+
+    /** Logger */
+    testImplementation 'org.slf4j:slf4j-api:1.7.29'
+    /** Logger implementation */
+    testImplementation "org.slf4j:slf4j-simple:1.7.29"
+}
