@@ -1,5 +1,6 @@
 ## java-practice-create-user
-#### Cucumber, logger
+#### Cucumber, 
+#### logger
 Please note that this website is a mockup created for practicing automation. It may not always work exactly as expected and lacks some features that a real e-Commerce store would have.
 
 An account was created, item was selected and added to the shopping cart.
